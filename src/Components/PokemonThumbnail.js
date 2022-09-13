@@ -8,7 +8,7 @@ const PokemonThumbnail = ({id,name,image,type,height,weight,stat1,stat2,stat3,st
     return (
         <div className ={style}>
             <div className="number">
-                <small>#0{id}</small>
+                <small>#{id}</small>
             </div>
             <img src={image} alt={name} />
             <div className="detail-wrapper">
